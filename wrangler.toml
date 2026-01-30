@@ -1,8 +1,6 @@
-name = "test-astr-react19-cf-workers"
-main = "dist/_worker.js"
+name = "test-astro-react19-cf-workers"
 compatibility_flags = ["nodejs_compat"]
-compatibility_date = "2024-12-20"
-assets = { directory = "./dist/" }
+compatibility_date = "2025-08-15"
 
-[observability.logs]
-enabled = true
+[assets]
+directory = "./dist/client"
